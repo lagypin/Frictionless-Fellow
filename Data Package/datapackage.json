@@ -1,0 +1,78 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "resource1",
+      "path": "BasketballMarcRecordsRawMarc.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "100a",
+            "type": "string",
+            "format": "default",
+            "title": "Author or Editor",
+            "description": "100a Main Entry Personal Name"
+          },
+          {
+            "name": "245a",
+            "type": "string",
+            "format": "default",
+            "title": "Title",
+            "description": "245a Title Statement title"
+          },
+          {
+            "name": "245b",
+            "type": "string",
+            "format": "default",
+            "title": "Subtitle",
+            "description": "245b Title Statement Remainder of title"
+          },
+          {
+            "name": "500a",
+            "type": "string",
+            "format": "default",
+            "title": "Notes",
+            "description": "500a General note"
+          },
+          {
+            "name": "505a",
+            "type": "string",
+            "format": "default",
+            "title": "Table of Contents",
+            "description": "505a Formatted contents note"
+          },
+          {
+            "name": "650a",
+            "type": "string",
+            "format": "default",
+            "title": "Library of Congress Subject Headings",
+            "description": "650a Subject Added Entry Topical Term"
+          }
+        ]
+      }
+    }
+  ],
+  "keywords": [
+    "basketball",
+    "MARC",
+    "catalog",
+    "library"
+  ],
+  "name": "Lindsay Gypin",
+  "title": "UNCG Basketball MARC Records",
+  "description": "UNCG Jackson Library's MARC records for titles resulting from a keyword search of \"basketball\" ",
+  "contributors": [
+    {
+      "title": "Lindsay Gypin",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-SA-4.0",
+      "title": "Creative Commons Attribution Share-Alike 4.0",
+      "path": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ]
+}
